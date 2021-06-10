@@ -138,6 +138,11 @@
     currentEventTime = now();
     return currentEventTime;
   }
+  /**
+   * 
+   * @param {*} fiber FiberNode
+   * @returns 
+   */
   function requestUpdateLane(fiber) {
     // Special cases
     var mode = fiber.mode;

@@ -85,6 +85,14 @@
   function createContainer(containerInfo, tag, hydrate, hydrationCallbacks) {
     return createFiberRoot(containerInfo, tag, hydrate);
   }
+  /**
+   * 
+   * @param {c} element 
+   * @param {*} container FiberRootNode
+   * @param {*} parentComponent 
+   * @param {*} callback 
+   * @returns 
+   */
   function updateContainer(element, container, parentComponent, callback) {
     {
       onScheduleRoot(container, element);
